@@ -10,7 +10,6 @@ export const Container = styled.div`
 
     justify-content: space-evenly;
 
-
     @media (max-width: 720px) {
         padding: 25px;
     }
@@ -24,6 +23,10 @@ export const ClockContainer = styled.div`
     transform: translateY(10%);
     user-select: none;
     transition: all 1s;
+
+    & div {
+        text-shadow: 0px 0px 75px #000;
+    }
 `;
 export const ClockWrapper = styled.div`
     min-width: 75vw;

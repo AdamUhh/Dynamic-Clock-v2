@@ -11,7 +11,10 @@ body {
     background-size: cover;
     color: white;
     font-family: 'Quicksand', sans-serif;
-    
+
+    /* background-color: rgba(0,0,0, 0.2); //Tint color */
+    /* background-blend-mode: multiply; */
+
     input {
       font-family: 'Quicksand', sans-serif;
     }
